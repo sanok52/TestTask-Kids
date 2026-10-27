@@ -48,17 +48,15 @@ public class DragDropController : ITickable
 
     private TouchPhase? GetKeyInfo()
     {
-#if UNITY_STANDALONE
-    return GetPCInput();
-#elif UNITY_EDITOR
-        return settings.PCModeInEditor
-            ? GetPCInput()
-            : GetMobileInput();
+#if UNITY_EDITOR
+        if (settings.PCModeInEditor)
+            return GetPCInput();
 #elif UNITY_ANDROID || UNITY_IOS
-    return GetMobileInput();
+    return GetMobileInput();    
 #else
-    return null;
+    return GetPCInput();
 #endif
+        return null;
     }
 
     private TouchPhase? GetPCInput()

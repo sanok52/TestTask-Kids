@@ -64,12 +64,3 @@ public class MessageTextLineObserver
         MessageBroker.Default.Publish(new TextLineLocalizMessage(text, priority));
     }
 }
-
-public enum GameEventType
-{
-    CubikDrop,
-    ToHight,
-    CubikEmptyDie,
-    CubikHoleDie,
-    CubikAnyDie
-}

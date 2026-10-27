@@ -79,12 +79,3 @@ public class DownLine : MonoBehaviour
        return root.position + pedding * index;
     }
 }
-
-public interface ISortable
-{
-    void MoveToSort(Vector3 position);
-    void OnAddInLine(DownLine downLine);
-    void OnRemoveOutLine(DownLine downLine);
-
-    public GameObject gameObject { get; }
-}
