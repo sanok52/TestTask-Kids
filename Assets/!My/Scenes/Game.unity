@@ -1623,7 +1623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollRoot: {fileID: 1599244091}
-  pcModeInEditor: 0
+  pcModeInEditor: 1
 --- !u!114 &1599244091
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,4 +17,4 @@ MonoBehaviour:
     m_Bits: 51
   KeyCodeHold: 323
   RadiusGrap: 0.05
-  PCModeInEditor: 0
+  PCModeInEditor: 1
