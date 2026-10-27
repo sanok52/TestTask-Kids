@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7bf2f0d21ac21d41898e9142a7c97eb, type: 3}
+  m_Name: FabricConfig
+  m_EditorClassIdentifier: 
+  cubikMovePrefab: {fileID: 1642959620306622621, guid: f75e9c3f54486674ca0271b6e3eda026, type: 3}
+  poofVFX: {fileID: 5416144269346753079, guid: 4d88e50ae3ea02242a586e9d0fdf12f1, type: 3}

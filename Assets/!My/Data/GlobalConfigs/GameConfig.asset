@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0481cbd86e58746937aaa0057fd643, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  countCubiks: 20
+  cubikInfoPresets:
+  - color: 0
+    sprite: {fileID: 21300000, guid: 350b5ab8fe0d4344abc540a327d978eb, type: 3}
+  - color: 1
+    sprite: {fileID: 21300000, guid: c2f8c3ea588a9104ab3e82706731bdc3, type: 3}
+  - color: 2
+    sprite: {fileID: 21300000, guid: 46635a3a99e5abe478b29b0df39f966a, type: 3}
+  - color: 3
+    sprite: {fileID: 21300000, guid: a3f0e0c7a003cd449b04d586d6b67a36, type: 3}
+  - color: 4
+    sprite: {fileID: 21300000, guid: e53e29b5cd14a7d4ab05bbe28db508ec, type: 3}
+  - color: 5
+    sprite: {fileID: 21300000, guid: 1c1fa6a3d7b9b914db330ec218ca52c9, type: 3}
+  - color: 6
+    sprite: {fileID: 21300000, guid: c17fd826e88702343a8b117e5d87edbe, type: 3}
+  - color: 7
+    sprite: {fileID: 21300000, guid: 2e5b6e3397730c84f96a9ccd61f56902, type: 3}
+  - color: 8
+    sprite: {fileID: 21300000, guid: 3a40b2458bc773142b10f8234f6f4299, type: 3}
+  - color: 9
+    sprite: {fileID: 21300000, guid: 73fd88bea50c7a24fb912de515920437, type: 3}
+  - color: 10
+    sprite: {fileID: 21300000, guid: 8a0f2c557be12fd4f87ded52435a6d1f, type: 3}
+  - color: 11
+    sprite: {fileID: 21300000, guid: ada6e703431e02743a40ebd549b23cc3, type: 3}
+  - color: 12
+    sprite: {fileID: 21300000, guid: e339d7b2b470ec34aba3ca375571289e, type: 3}
+  - color: 13
+    sprite: {fileID: 21300000, guid: 18610e1d9cdb7804391ebc2c602e86ec, type: 3}
+  - color: 14
+    sprite: {fileID: 21300000, guid: cd8c596d9372f404f9147f6ea88730b7, type: 3}
+  - color: 15
+    sprite: {fileID: 21300000, guid: 9961becddf3dc844fbfb6e35bdd4b2c2, type: 3}
+  - color: 16
+    sprite: {fileID: 21300000, guid: c235a87eb42e397458819de25a03280f, type: 3}
+  - color: 17
+    sprite: {fileID: 21300000, guid: 83c8745ad0b4768459072d711d3ae7a3, type: 3}
+  - color: 18
+    sprite: {fileID: 21300000, guid: 17ddfcd731df556469ffedc5df9998cc, type: 3}
+  - color: 19
+    sprite: {fileID: 21300000, guid: 73fd88bea50c7a24fb912de515920437, type: 3}
+  isTryLoad: 1
+  isUseGameRule: 1
+  isCanReturnInTower: 1
+  isCanGrapAnyCubik: 1
